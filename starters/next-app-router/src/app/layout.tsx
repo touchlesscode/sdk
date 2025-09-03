@@ -30,7 +30,7 @@ export default function RootLayout({
       <head>
         <Script
           id="exo-sdk"
-          src="https://exo.touchlessapis.com/?exo-host=autogenius.io"
+          src="https://exo.touchlessapis.com"
           strategy="beforeInteractive"
         />
       </head>
