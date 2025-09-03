@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -28,11 +27,10 @@ export default function RootLayout({
       <link rel="preconnect" href="https://exo.touchlessapis.com" />
       <link rel="dns-prefetch" href="https://exo.touchlessapis.com" />
       <head>
-        <Script
-          id="exo-sdk"
-          src="https://exo.touchlessapis.com"
-          strategy="beforeInteractive"
-        />
+        <script 
+          src="https://exo.touchlessapis.com" 
+          defer={false}
+        ></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
