@@ -8,6 +8,12 @@ export default function Home() {
           <Link href="/interior" className="hover:underline">
             Sample Interior Page
           </Link>
+          <Image
+            src="/nextjs.svg"
+            alt="Next.js Logo"
+            width={120}
+            height={60}
+          />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         

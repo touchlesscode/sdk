@@ -29,7 +29,7 @@ export default function RootLayout({
       <link rel="dns-prefetch" href="https://exo.touchlessapis.com" />
       <head>
          {/* EXO script as high as possible */}
-        <script src="https://exo.touchlessapis.com/?exo-host=sdk-next-app-router.vercel.app" defer={false}></script>
+        <script src="https://exo.touchlessapis.com" defer={false}></script>
 
         {/* GTM bootstrap snippet */}
         <Script id="gtm-script" strategy="beforeInteractive">
