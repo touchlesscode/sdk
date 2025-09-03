@@ -9,7 +9,7 @@ export default function Home() {
             Sample Interior Page
           </Link>
           <Image
-            src="/nextjs.svg"
+            src="/next.svg"
             alt="Next.js Logo"
             width={120}
             height={60}
